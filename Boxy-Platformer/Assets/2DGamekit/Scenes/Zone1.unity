@@ -15028,6 +15028,11 @@ Prefab:
       propertyPath: m_textAlignment
       value: 513
       objectReference: {fileID: 0}
+    - target: {fileID: 114488631859498054, guid: 114c5f41fd4099445a42c1d9bd01f222,
+        type: 2}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 114c5f41fd4099445a42c1d9bd01f222, type: 2}
   m_IsPrefabParent: 0
@@ -37322,7 +37327,7 @@ MonoBehaviour:
     stationaryBlending: 0.95
     motionBlending: 0.85
   fastApproximateAntialiasing:
-    mobileOptimized: 0
+    fastMode: 0
     keepAlpha: 0
   fog:
     enabled: 0
